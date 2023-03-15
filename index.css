@@ -1,0 +1,140 @@
+
+#menu {
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+#menu>ul {
+    position: absolute;
+    left: 54%;
+    top: 8%;
+}
+
+#menu>ul>li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 15px 15px 20px;
+}
+
+#logo {
+    position: absolute;
+    padding: 27px 15px 15px 20px;
+    left: 22%;
+    top: 8%;
+}
+
+#imgweb>img {
+    width: 34%;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+}
+
+#blackcontent {
+    height: 545px;
+    width: 330px;
+    background-color: black;
+    position: absolute;
+    left: 1388px;
+    top: 20%;
+    padding: 30px;
+}
+
+#blackcontent>h1 {
+    color: hsl(35, 77%, 62%);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.para {
+    color: rgb(203, 203, 203);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+
+#line {
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(203, 203, 203);
+    margin-bottom: 32px;
+}
+
+#bigtitle {
+    position: absolute;
+    top: 48%;
+    left: 23%;
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#paraactu {
+    position: absolute;
+    top: 49%;
+    left: 960px;
+    font-family: 'Inter', sans-serif;
+    line-height: 2;
+}
+
+.button {
+    position: absolute;
+    top: 67%;
+    left: 960px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+}
+
+#footer {
+    background-color: transparent;
+    width: 1500px;
+    height: 135px;
+    position: absolute;
+    top: 78%;
+    left: 23%;
+}
+
+.containerf {
+    flex-direction: row;
+    width: 420px;
+    display: inline-block;
+    
+}
+
+.containerf>img {
+    width: 120px;
+    float: left;
+    margin-right: 28px;
+}
+
+.subtitleblack {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.numbfooter {
+    color: rgb(203, 203, 203);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    
+}
