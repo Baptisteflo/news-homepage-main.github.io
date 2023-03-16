@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #menu {
     font-family: 'Inter', sans-serif;
@@ -28,6 +33,7 @@
     position: absolute;
     top: 20%;
     left: 23%;
+    margin-right: 50px;
 }
 
 #blackcontent {
